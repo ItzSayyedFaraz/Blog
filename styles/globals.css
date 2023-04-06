@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    /* font-family: 'Playball', cursive; */
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+    background:#fff;
+}
+
+.foot{
+    margin-top: 35px;
+    margin-left:45px;
+    display: flex;
+    flex-direction: row;
+}
+footer ul{
+    display: flex;
+    margin-left: 20px;
+    gap: 2rem;
+    flex-direction: row;
+}
+footer ul li{
+    font-size: 1.8rem;
+}
+small{
+ margin-left:120px
+}
+.bgabout{
+  display:flex;
+
+}
+.info{
+    margin-top:50px;
+    margin-left: 30px;
+}
+
+.info li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+.info ul{
+    display: flex;
+}
+
+.adminlogin{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userlogin{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.editor{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.editor input{
+    display:inline-flex;
+    flex-direction:column;
+    width: 20vw;
+}
+.myeditor{
+    display:flex
+}
+.postbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.editor button{
+   margin-left: 20px;
+}

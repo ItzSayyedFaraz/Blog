@@ -1,0 +1,41 @@
+.post h1{
+    font-size: 3rem;
+}
+.bannerimg img{
+    margin-top:5px;
+    width: 100%;
+
+}
+.post hr{
+    margin: 3rem;
+}
+.aboutauthor{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.article{
+    display: flex;
+    margin-left: 30px;
+    margin-right:30px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ico{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comments{
+    display:flex;
+    margin-left: 50px;
+    flex-direction: column;
+}

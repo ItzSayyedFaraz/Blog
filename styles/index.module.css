@@ -1,0 +1,73 @@
+.cardcontent {
+  padding: 2rem;
+  display: flex;
+  flex-direction:column;
+  gap: 1rem;
+}
+
+
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.readbtn {
+  all: unset;
+  font-weight: 600;
+}
+.readbtn:hover {
+  border-bottom: 1px solid #000;
+}
+.vcard {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 320px;
+  height: 450px;
+  /* margin: 2rem 1rem; */
+  box-shadow: 0px 5px 4px rgba(17, 16, 16, 0.25);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+ 
+}
+.h2ellips{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    height:40px;
+    
+}
+
+.pellips{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height:120px;
+  
+}
+.cardwrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.vcard img {
+  width: 100%;
+  height: 30%;
+}
+.cardcontainer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.pto {
+  display: flex;
+  text-align: right;
+  margin-top: 15px;
+  margin-left: 30px;
+ 
+}
+
+.parent{
+  display :inline-flex;
+  margin-left: 30px;
+  margin-right: 60px;
+  
+}
